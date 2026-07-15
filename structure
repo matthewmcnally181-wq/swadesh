@@ -1,0 +1,7 @@
+swadesh-analyzer/
+│
+├── index.html
+├── style.css
+├── app.js
+├── swadesh.js
+└── README.md
