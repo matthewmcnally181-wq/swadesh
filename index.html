@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swadesh Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Swadesh List Analyzer</h1>
+
+<div class="container">
+  <div class="input-section">
+    <h2>Enter Languages</h2>
+
+    <textarea id="lang1" placeholder="Language 1 (one word per line)"></textarea>
+    <textarea id="lang2" placeholder="Language 2 (one word per line)"></textarea>
+
+    <button onclick="analyze()">Analyze</button>
+  </div>
+
+  <div class="output-section">
+    <h2>Results</h2>
+    <p id="result"></p>
+    <table id="comparison"></table>
+  </div>
+</div>
+
+<script src="swadesh.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
